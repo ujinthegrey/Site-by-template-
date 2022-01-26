@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family:'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh; 
+}
+
+#header {
+    width: 100vw;
+    height: 20%; 
+    display: flex;    
+    background: #EEEFF1;
+}
+
+#logo {
+    margin-top: 60px;
+    margin-left: 20%;
+
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #34547A;
+}
+
+#menu {
+    margin-top: 82px;
+    margin-left: 20%;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid #34547A;
+    color: #34547A;
+}
+
+.menu-link {
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#menu-icon {
+    display: none;
+}
+
+.screen {
+    width: 100vw;
+    height: 80%;
+}
+
+#screen-main {
+    background: #EEEFF1;
+    display: flex;
+}
+
+#main-img {
+    background-image: url('./img/main.jpg');
+    height: 162px;
+    width: 311px;
+    margin-top: 90px;
+    margin-left: 20%;
+}
+
+#main-info {
+    margin-top: 80px;
+    margin-left:80px;
+    width: 40%;
+}
+
+h1 {
+    color: #000;
+}
+
+.btn {
+    color: #fff;
+    background: #34547A;
+    cursor: pointer;
+    padding: 20px 40px;
+    border: none;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+#btn-contact {
+    font-size: 16px;  
+}
+
+#screen-about {
+    background: #E5E5E5;
+}
+
+#screen-about h2 {
+    font-size: 32px;
+}
+
+#screen-about p {
+    font-size: 16px;
+    padding: 10px 25%;
+}
+
+#about-info {
+    background: #E5E5E5;
+    height: 25%;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#numbers {
+    background: #34547A;
+    height: 15%;
+}
+
+#skills-photo {
+    background: #E5E5E5;
+    display: flex;
+    height: 60%;
+}
+
+#skills {
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 30%;
+}
+
+#skills p {
+    padding: 15px 0px;
+    text-align: left;
+    color: #727272;
+    border-bottom: 4px solid #000;
+}
+
+#photo {
+    background-image: url('./img/photo.jpg');
+    height: 327px;
+    width: 246px;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+#screen-cases {
+    display: block;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.case {
+    width: 25%;
+    height: 100%;
+    background-position: center;
+}
+
+#img1 {
+    background-image: url('./img/img1.jpg');
+}
+
+#img2 {
+    background-image: url('./img/img2.jpg');
+}
+
+#img3 {
+    background-image: url('./img/img3.jpg');
+}
+
+#img4 {
+    background-image: url('./img/img4.jpg');
+}
+
+#img5 {
+    background-image: url('./img/img5.jpg');
+}
+
+#img6 {
+    background-image: url('./img/img6.jpg');
+}
+
+#img7 {
+    background-image: url('./img/img7.jpg');
+}
+
+#img8 {
+    background-image: url('./img/img8.jpg');
+}
+
+#screen-video {
+    background: #E5E5E5;
+}
+
+#screen-video h2 {
+    font-size: 32px;
+}
+
+#screen-video p {
+    font-size: 16px;
+    padding: 10px 25%;
+}
+
+#video-info {
+    background: #E5E5E5;
+    height: 25%;
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#video {
+    height: 75%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+#screen-form {
+    background: #EEEFF1;
+}
+
+#clients {
+    background: #fff;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.client {
+    margin: 0 30px;
+    width: 75px ;
+    height: 42px;
+}
+
+.form-info {
+    justify-content: center;
+    text-align: center;
+    height: 18%;
+}
+
+.form-info h2 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.form-info p {
+    font-size: 16px;
+    padding: 10px 25%;
+}
+
+.form {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 62%;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+}
+
+.form-row input {
+    margin: 10px;
+    padding: 5px;
+    width: 245px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.form textarea {
+    margin: 10px 20px;
+    padding: 5px;
+    width: 525px;
+    height: 170px;
+    font-size: 16px;
+}
+
+#footer {
+    background: #34547A;
+    height: 12%;
+    color: #fff;
+    display: flex;
+}
+
+.name-cr {
+    width: 65%
+}
+
+#footer h3 {
+    margin-top: 5px;
+    margin-left: 30%;
+    font-size: 18px;
+}
+
+#footer h4 {
+    margin-top: 5px;
+    margin-left: 30%;
+    font-size: 12px;
+}
+
+.vk-row {
+    display: flex;
+}
+
+.vk {
+    margin-top: 24px;
+    margin-left: 30px;
+    width: 40px;
+    height: 25px;
+}
+
+.modal {
+    background: lightgray;
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    right: 15%;
+    transform: translateY(-200%);
+    transition: 1s;
+    padding: 2rem;
+}
+
+.modal.active {
+    transform: translateY(20%); 
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WD Video</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu.css" />
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <div id="logo">WD</div>
+            <nav id="menu">
+                <a href ="index.html" class="menu-link" id="menu-main">ГЛАВНАЯ</a>
+                <a href ="about.html" class="menu-link" id="menu-about">ОБ АВТОРЕ</a>
+                <a href ="cases.html" class="menu-link" id="menu-cases">РАБОТЫ</a>
+                <a href ="video.html" class="menu-link" id="menu-video">ПРОЦЕСС</a>
+                <a href ="form.html" class="menu-link" id="menu-form">КОНТАКТЫ</a>
+                <a href ="#" id="menu-icon">&#9776;</a>
+            </nav>
+        </div>
+
+        <div class="screen" id="screen-video">
+            <div id="video-info">
+                <h2>Как я работаю</h2>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+            </div>
+
+            <div id="video">
+<!--                 <inframe
+                    width="640"
+                    height="480"
+                    src="video.mp4"
+                    frameborder = "0"
+                    allowfullscreen
+                ></iframe> -->
+                <video src="video.mp4" controls autoplay></video>
+            </div>
+        </div>
+
+    </div>    
+
+    <script src="app.js"></script>
+</body>
+</html>
